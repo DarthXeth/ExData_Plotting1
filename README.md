@@ -45,6 +45,7 @@ When loading the dataset into R, consider the following:
 * The dataset has 2,075,259 rows and 9 columns. It is not a small amount of data.
 * Only data from the dates 2007-02-01 and 2007-02-02 is used. 
 * I decided to try to read in only those dates rather than subsetting the entire dataset
+* I changed my mind above. I'll f with that some other assignment.
 
 * Obviously it was indeed useful to convert the Date and Time variables to
 Date/Time classes in R using the `strptime()` and `as.Date()`
